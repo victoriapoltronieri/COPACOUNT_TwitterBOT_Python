@@ -24,9 +24,6 @@ ipywidgets==7.7.0
 jsonschema==3.2.0
 keyring==10.6.0
 keyrings.alt==3.0
-launchpadlib==1.10.6
-lazr.restfulclient==0.13.5
-lazr.uri==1.0.3
 oauth==1.0.1
 oauthlib==3.2.0
 pyinstaller==4.3
@@ -38,7 +35,6 @@ python3-xlib==0.15
 PyTweening==1.0.3
 pytz==2018.3
 pyxdg==0.25
-PyYAML==3.12
 pyzmq==22.3.0
 qtconsole==5.2.2
 QtPy==2.0.1
