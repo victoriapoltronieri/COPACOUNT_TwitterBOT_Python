@@ -9,7 +9,6 @@ attrs==21.2.0
 backcall==0.2.0
 beautifulsoup4==4.6.0
 bleach==4.1.0
-Brlapi==0.6.6
 certifi==2018.1.18
 cffi==1.15.0
 chardet==3.0.4
@@ -17,7 +16,6 @@ charset-normalizer==2.0.12
 command-not-found==0.3
 cryptography==2.1.4
 cupshelpers==1.0
-cvzone==1.1.1
 cycler==0.10.0
 dataclasses==0.8
 decorator==4.1.2
@@ -41,12 +39,6 @@ ipywidgets==7.7.0
 jedi==0.18.0
 Jinja2==3.0.3
 jsonschema==3.2.0
-jupyter==1.0.0
-jupyter-client==7.1.2
-jupyter-console==6.4.3
-jupyter-core==4.9.2
-jupyterlab-pygments==0.1.2
-jupyterlab-widgets==1.1.0
 keyring==10.6.0
 keyrings.alt==3.0
 Kivy==2.1.0.dev0
@@ -88,7 +80,6 @@ prometheus-client==0.14.1
 prompt-toolkit==3.0.19
 protobuf==3.17.1
 ptyprocess==0.7.0
-PyAutoGUI==0.9.52
 pycairo==1.16.2
 pycparser==2.21
 pycrypto==2.6.1
