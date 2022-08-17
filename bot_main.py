@@ -63,7 +63,7 @@ def dia_zero(dias):
 
 
 def _main_():
-    if((date.now().time().hour==12)and(date.now().time().minute==00)):
+    if((date.now().time().hour==12)and(date.now().time().minute==15)):
         dias = calcula_dias_restantes()
         frase_extra = random_tweet()
 
@@ -82,7 +82,9 @@ def _main_():
         else:
             tweet = "A Copa do Mundo FIFA 2022 já tá rolando!"
 
+        if(date.now().time().hour==11):
+            time.sleep(360)
 if __name__ == "__main__":
     while True:
         _main_()
-        time.sleep(86400)
+        #time.sleep(86400)
