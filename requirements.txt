@@ -1,4 +1,4 @@
-certifi==2022.8.17
+certifi==2022.6.15
 charset-normalizer==2.1.0
 DateTime==4.5
 oauthlib==3.2.0
@@ -10,4 +10,3 @@ soupsieve==2.3.2.post1
 tweepy==4.10.0
 urllib3==1.26.10
 zope.interface==5.4.0
-python==3.6.9
