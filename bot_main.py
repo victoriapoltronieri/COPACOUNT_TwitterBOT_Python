@@ -64,7 +64,7 @@ def dia_zero(dias):
 
 
 def _main_():
-    if((datetime.now().time().hour==14)and(datetime.now().time().minute==24)):
+    if((datetime.now().time().hour==14)and(datetime.now().time().minute==50)):
         api.update_status("Entrou aqui povo")
         dias = calcula_dias_restantes()
         frase_extra = random_tweet()
