@@ -64,13 +64,13 @@ def dia_zero(dias):
 
 
 def _main_():
-    if((datetime.now().time().hour==12)and(datetime.now().time().minute==43)):
+    if((datetime.now().time().hour==12)and(datetime.now().time().minute==49)):
         dias = calcula_dias_restantes()
         frase_extra = random_tweet()
         teste = 1
 
         if(teste == 1):
-            api.update_status("Vem Hexa!")
+            api.update_status("Vamo Brasil!")
         elif(dias > 1):
             tweet = mais_de_um_dia(dias) + frase_extra
             api.update_status(tweet)
