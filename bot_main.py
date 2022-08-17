@@ -1,8 +1,4 @@
-#API KEY nK4qZuuEwbVr1r83ObPBx0RwA
-#API KEY SECRET HCukhHFMsLTVuOfQPKV4Dxb6zNUDZqQpFsLPnO7IJ8yQkfYyhE
-#BEARER TOKEN AAAAAAAAAAAAAAAAAAAAAIUvgAEAAAAAnagHE%2B79am1Xo%2BpyzU5VBZBMIYg%3DqUw4ctoS6SxmxGWEjgR6CgVM3bLsxTDJOf7p3ZHVH4whIVSVRP
 
-#copa começa dia 20 de novembro de 2022
 
 tweets = ["Já comprou a camisa pra assistir os jogos do BR combinando com o mozão?", 
         "2022\n2 0 2 2\n2 + 0 + 2 + 2 = 6\nHexa confirmado!", 
@@ -22,13 +18,14 @@ from os import read, write
 import tweepy
 import time
 import random
+import dotenv
 
-api_key = 'nK4qZuuEwbVr1r83ObPBx0RwA'
-api_secret_key = 'HCukhHFMsLTVuOfQPKV4Dxb6zNUDZqQpFsLPnO7IJ8yQkfYyhE'
-acess_key = ''
-acess_secret = ''
-auth = tweepy.OAuthHandler(api_key, api_secret_key)
-auth.set_access_token(acess_key, acess_secret)
+# --------------------------------------------------------------
+# APPLYING DOTENV
+# --------------------------------------------------------------
+dotenv.load_dotenv(dotenv.find_dotenv())
+
+
 
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
