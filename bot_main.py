@@ -89,4 +89,4 @@ def _main_():
 if __name__ == "__main__":
     while True:
         _main_()
-        time.sleep(100)
+        time.sleep(10)
