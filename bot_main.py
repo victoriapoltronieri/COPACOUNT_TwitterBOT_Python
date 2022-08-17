@@ -63,8 +63,7 @@ def dia_zero(dias):
 
 
 def _main_():
-
-    if((datetime.now().time().hour==12)and(datetime.now().time().minute==00)):
+    if((date.now().time().hour==12)and(date.now().time().minute==00)):
         dias = calcula_dias_restantes()
         frase_extra = random_tweet()
 
