@@ -1,6 +1,4 @@
-from http import client
 import os
-from pickle import TRUE
 import tweepy
 import time
 import random
@@ -64,7 +62,7 @@ def dia_zero(dias):
 
 
 def _main_():
-    if((datetime.now().time().hour==15)and(datetime.now().time().minute==7)):
+    if((datetime.now().time().hour==15)and(datetime.now().time().minute==12)):
         api.update_status("Entrou aqui povo")
         dias = calcula_dias_restantes()
         frase_extra = random_tweet()
