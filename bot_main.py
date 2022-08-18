@@ -62,12 +62,12 @@ def dia_zero(dias):
 
 
 def _main_():
-    if((datetime.now().time().hour==16)and(datetime.now().time().minute==45)):
-        api.update_status("Entrou aqui povo")
+    if((datetime.now().time().hour==8)and(datetime.now().time().minute==0)):
+       # api.update_status("Entrou aqui povo")
         dias = calcula_dias_restantes()
         frase_extra = random_tweet()
 
-        '''if(dias > 1):
+        if(dias > 1):
             tweet = mais_de_um_dia(dias) + frase_extra
             api.update_status(tweet)
 
@@ -80,14 +80,15 @@ def _main_():
             api.update_status(tweet)
         
         else:
-            tweet = "A Copa do Mundo FIFA 2022 já tá rolando!"'''
+            tweet = "A Copa do Mundo FIFA 2022 já tá rolando!"
 
 if __name__ == "__main__":
     while True:
-    
-        if((datetime.now().time().hour==15) or (datetime.now().time().hour==16)):
+        if((datetime.now().time().hour==7) or (datetime.now().time().hour==8)):
             _main_()
             time.sleep(60)
 
         elif((datetime.now().time().hour==9)):
             time.sleep(79200)
+        else:
+            time.sleep(3600)
