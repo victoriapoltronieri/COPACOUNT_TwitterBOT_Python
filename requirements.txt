@@ -33,5 +33,3 @@ simplejson==3.13.2
 systemd-python==234
 testpath==0.6.0
 tweepy==4.6.0
-urllib3==1.22
-virtualenv==20.4.7
