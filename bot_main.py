@@ -6,6 +6,7 @@ import dotenv
 import datetime
 from datetime import datetime
 from datetime import date
+from collections.abc import Mapping
 
 # --------------------------------------------------------------
 # ADICIONANDO DOTENV
