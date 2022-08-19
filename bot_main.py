@@ -39,7 +39,7 @@ def random_tweet():
             "Ainda dá tempo de marcar o churrasco na casa da sogra pra assistir a seleção.",
             "#Hexa2022",
             "A skin de Maria Chuteira já tá atualizada.",
-            "Vamo assistir Casimiro reagindo aos jogos da copa juntos?",
+            "Vamo assistir @Casimiro reagindo aos jogos da copa juntos?",
             "Sou Neymarzete desde criancinha.",
             "*Vendo que os jogos da seleção são em dia de semana*\n\n*Eu pro meu patrão*: Não posso ir trabalhar pois gripá-lo-ei",
             "Dia dos jogos do Brasil:\n- 24/11\n- 28/11\n- 02/12",
