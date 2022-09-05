@@ -53,7 +53,17 @@ def random_tweet():
             "Minha linguagem de amor é presentes, pra me consquistar é só comprar o album da Copa com vários pacotes de figurinha",
             "Agora a inflação foi longe demais... 4 conto o pacote de figurinha é um absurdo. Quem vai aparecer no protesto?",
             "Thomas Muller mandou dizer oi",
-            "Última Copa do CR7 e do Messi. Nada mais justo do que a final ser Brasil e Tunísia pra eles aproveitarem bastante a cerimônia de encerramento."]
+            "Última Copa do CR7 e do Messi. Nada mais justo do que a final ser Brasil e Tunísia pra eles aproveitarem bastante a cerimônia de encerramento.",
+            "Adotando a estética camisa da seleção Ronaldo 11 falsificada comprada na porta do estádio pra dar sorte.",
+            "Se você viveu o último título do Brasil dá rt",
+            "Curte e rt se você acredita no Hexa. Ignore para mais 3 copas de azar",
+            "Espero que na convocação o Titi não confuda a lista pra Copa com a escalação do Corinthians",
+            "Para você, quem não pode faltar na convocação pra Copa 2022?",
+            "Opinião polêmica: Se o Titi chamar _________, nem adianta sonhar com o Hexa. (complete)",
+            "povo brasileiro: saudades do que a gnt ainda não viveu [hexa]",
+            "O Brasil precisa ganhar a Copa esse ano, imagina aquela mãe coitada ter que esperar mais quatro anos pra ver se o filho vai nascer",
+            "Será que esse ano o neném nasce?",
+            "Justin Bieber orou pelo Brasil... agora o Hexa vem !"]
     
     random_tweet = random.choice(tweets)
     return random_tweet
